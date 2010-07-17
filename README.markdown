@@ -30,8 +30,8 @@ Examples
 
 These examples were created
 after copying from Chrome the words "The argparse module"
-at the beginning of the [argparse documentation]
-[http://docs.python.org/library/argparse.html].
+at the beginning of the
+[argparse documentation](http://docs.python.org/library/argparse.html).
 
     $ clipcli -l
     TIMESTAMP
