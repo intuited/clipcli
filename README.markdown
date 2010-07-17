@@ -6,10 +6,25 @@ Lightweight Python command-line interface to the GTK clipboard.
 Dependencies
 ------------
 
+- Python 2.6 or (hopefully) 2.7.
+
+    I've only tested this thing with Python 2.6.  It might work with earlier versions too, though I didn't think about that when writing it.  I have not yet consciously accepted the existence of Python 3.
+    
+    It's pretty dead simple so the chances that it will work with other versions are pretty good.
+
 - `argparse`:
   Included with Python 2.7; otherwise installable via
 
         $ easy_install argparse
+
+- [`pygtk`](http://pypi.python.org/pypi/PyGTK/2.12.1):
+  Generally installable via system package managers: for instance, debian-likes have the package `python-gtk2`.
+
+    Otherwise this will do:
+
+        $ easy_install pygtk
+
+
 
 Usage
 -----
