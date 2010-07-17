@@ -14,7 +14,7 @@ Dependencies
 Usage
 -----
 
-    clipcli [-h] [-f FILE] [-d] [-l] [TARGET]
+    clipcli [-h] [-d] [-f FILE] [-l] [TARGET]
 
     positional arguments:
       TARGET                display the contents of this target
